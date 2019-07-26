@@ -1,0 +1,15 @@
+.section-navbar ul li a{
+    display: block;
+    padding : .5rem 1rem;
+    font-size: 14px;
+    color : black;
+    text-decoration: none;
+}
+
+.activeLink {
+    border-bottom: 3px solid #cf6d17;
+}
+
+.section-navbar .links:hover{
+    border-bottom: 3px solid #d6cbc1;
+}

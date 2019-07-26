@@ -1,0 +1,157 @@
+/* @media only screen and (max-width: 1200px) {
+    
+
+    .section-repo{
+        margin-left: 1px;
+    }
+
+    .container{
+        max-width: 1100px;
+    }
+
+    .section-profile .profilePic{
+        width : 100%!important;
+        height : 100%!important;
+        border-radius: 5px;
+    }
+  }
+
+  @media only screen and (max-width: 1023px) {
+
+    .container{
+        max-width: 900px;
+    }
+
+    .section-profile .profilePic{
+        width : 100%!important;
+        height : 100%!important;
+        border-radius: 5px;
+    }
+
+    .section-navbar{
+        display: block;
+    }
+
+    .badge{
+        visibility: hidden;
+    }
+
+    .nav .activeLink,
+    .nav .links {
+        padding: 6px;
+    }
+
+    .section-profile h4{
+        font-size: 20px;
+    }
+
+    section-profile h6{
+        font-size: 14px;
+    }
+
+  }
+
+  @media only screen and (max-width: 767px) {
+    .section-profile .profilePic{
+        width : 30%!important;
+        height : 30%!important;
+        border-radius: 5px;
+    }
+
+    .section-profile h4{
+        display: block;
+    }
+
+    .container{
+        max-width: 700px;
+    }
+
+    .container{
+        width: 800px;
+    }
+
+    .section-repo{
+        width: 100%;
+    }
+
+
+
+  } */
+
+  @media only screen and  (min-width: 320px) and (max-width: 575px) { 
+    .section-profile .profilePic{
+        width : 30%!important;
+        height : 30%!important;
+        border-radius: 5px;
+    }
+    
+    .badge{
+        visibility: hidden;
+    }
+
+    .nav .activeLink,
+    .nav .links {
+        padding: 5px;
+    }
+  }
+
+  @media only screen and (min-width: 576px) and (max-width: 767px) { 
+    .section-profile .profilePic{
+        width : 30%!important;
+        height : 30%!important;
+        border-radius: 5px;
+    }
+
+    .nav .activeLink,
+    .nav .links {
+        padding: 7px;
+        margin-left: 3px;
+    }
+
+    .badge{
+        visibility: hidden;
+    }
+
+    .section-profile{
+        display: block;
+    }
+
+    .col-sm-6{
+        flex: 0 0 100%;
+    }
+   }
+
+  @media only screen and  (min-width: 768px) and (max-width: 991px) { 
+    
+    .container{
+        width: 900px;
+    }
+
+    .badge{
+        visibility: hidden;
+    }
+
+    .nav .activeLink,
+    .nav .links {
+        padding: 6px;
+    }
+
+    .card-body{
+        max-width:100%;
+    }
+  
+
+   }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) { 
+    .container{
+        width: 900px;
+    }
+   }
+  
+  @media only screen and (min-width: 1200px) {
+    .nav .activeLink,
+    .nav .links {
+        padding: 9px;
+    }
+  }
