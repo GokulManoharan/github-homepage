@@ -1,5 +1,5 @@
 ## Github homepage 
-[Live demo](https://gokul-omnifood.herokuapp.com/).
+[Live demo](https://github-homepage.herokuapp.com/).
 
 Clone the project directory, you can run:
 ### `npm install`
