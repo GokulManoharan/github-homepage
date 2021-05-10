@@ -1,6 +1,6 @@
 import React from 'react'
 
-import profilePicture from '../../resources/img/profile-pic.jfif'
+// import profilePicture from '../../resources/img/profile-pic.jfif'
 import './ProfileSection.css'
 import PeopleIcon from 'react-ionicons/lib/MdPeople'
 import PinIcon from 'react-ionicons/lib/MdPin'
@@ -10,7 +10,7 @@ class ProfileSection extends React.Component {
     render(){
         return (
             <section className="section-profile">
-                <img src={profilePicture} className="profilePic" />
+                <img src={} className="profilePic" />
                 <h4>Supreet Singh</h4>
                 <h6 className="userName">supreetsingh247</h6>
                 <button class="btn btn-light max">Follow</button>
